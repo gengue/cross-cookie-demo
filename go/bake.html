@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+    <title>GO</title>
+    <script>
+      function loadComplete(){
+        setTimeout(() => {
+          window.location.href = '/dashboard.html'
+        }, 2000);
+      }
+    </script>
+  </head>
+  <body onload="loadComplete()">
+    <h1>Please wait</h1>
+    <img src="http://localhost:5001/set-cookie" style="display:none;" />
+    <img src="http://localhost:5002/set-cookie" style="display:none;" />
+  </body>
+</html>
+
